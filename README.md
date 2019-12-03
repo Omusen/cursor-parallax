@@ -42,6 +42,7 @@ var cursorParallax = new CursorParallax(elm, {
   deviceorientationRatio: 1,
   mousemove: true,
   deviceorientation: true,
+  isUsedTheFirstTilt: false,
 });
 var elm_requestButton = document.getElementById('requestButton');
 if (!cursorParallax.isNeededPermissionOfDeviceOrientationEvent()) {
